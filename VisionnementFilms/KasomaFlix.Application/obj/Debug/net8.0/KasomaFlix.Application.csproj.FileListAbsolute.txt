@@ -1,0 +1,17 @@
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\bin\Debug\net8.0\KasomaFlix.Application.deps.json
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\bin\Debug\net8.0\KasomaFlix.Application.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\bin\Debug\net8.0\KasomaFlix.Application.pdb
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\bin\Debug\net8.0\KasomaFlix.Domain.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\bin\Debug\net8.0\KasomaFlix.Infrastructure.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\bin\Debug\net8.0\KasomaFlix.Domain.pdb
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\bin\Debug\net8.0\KasomaFlix.Infrastructure.pdb
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\obj\Debug\net8.0\KasomaFlix.Application.csproj.AssemblyReference.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\obj\Debug\net8.0\KasomaFlix.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\obj\Debug\net8.0\KasomaFlix.Application.AssemblyInfoInputs.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\obj\Debug\net8.0\KasomaFlix.Application.AssemblyInfo.cs
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\obj\Debug\net8.0\KasomaFlix.Application.csproj.CoreCompileInputs.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\obj\Debug\net8.0\KasomaFl.18B46D7E.Up2Date
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\obj\Debug\net8.0\KasomaFlix.Application.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\obj\Debug\net8.0\refint\KasomaFlix.Application.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\obj\Debug\net8.0\KasomaFlix.Application.pdb
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Application\obj\Debug\net8.0\ref\KasomaFlix.Application.dll

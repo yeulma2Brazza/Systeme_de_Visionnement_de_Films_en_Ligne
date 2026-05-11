@@ -1,0 +1,11 @@
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\bin\Debug\net8.0\KasomaFlix.Domain.deps.json
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\bin\Debug\net8.0\KasomaFlix.Domain.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\bin\Debug\net8.0\KasomaFlix.Domain.pdb
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\net8.0\KasomaFlix.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\net8.0\KasomaFlix.Domain.AssemblyInfoInputs.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\net8.0\KasomaFlix.Domain.AssemblyInfo.cs
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\net8.0\KasomaFlix.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\net8.0\KasomaFlix.Domain.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\net8.0\refint\KasomaFlix.Domain.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\net8.0\KasomaFlix.Domain.pdb
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\net8.0\ref\KasomaFlix.Domain.dll

@@ -1,0 +1,123 @@
+<Page x:Class="KasomaFlix.Presentation.Views.MonCompte"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1000"
+      Title="MonCompte">
+
+    <Page.Resources>
+        <Style x:Key="HeaderButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#444444"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="8,5"/>
+            <Setter Property="Margin" Value="5,0"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#555555"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        
+        <Style x:Key="MenuButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Margin" Value="0,5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#333333"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#141414">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- HEADER -->
+        <Border Grid.Row="0" Background="#000000" Padding="15">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="KASOMAFLIX" Foreground="#E50914" FontSize="24" FontWeight="Bold" VerticalAlignment="Center"/>
+                <StackPanel Grid.Column="2" Orientation="Horizontal">
+                    <Button Content="Accueil" Style="{StaticResource HeaderButtonStyle}" Click="Accueil_Click"/>
+                    <Button Content="Déconnexion" Style="{StaticResource HeaderButtonStyle}" Background="#E50914" Click="Deconnexion_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+
+        <!-- CONTENU PRINCIPAL (Menu Latéral et Contenu) -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <!-- Menu Latéral -->
+                <ColumnDefinition Width="*"/>
+                <!-- Contenu de la Page -->
+            </Grid.ColumnDefinitions>
+
+            <!-- Menu de Navigation Latéral -->
+            <StackPanel Grid.Column="0" Background="#222222" >
+                <TextBlock Text="MON COMPTE" Foreground="#AAAAAA" FontSize="16" Margin="0,10,0,10"/>
+                <Button Content="Profil" Style="{StaticResource MenuButtonStyle}" Click="Profil_Click"/>
+                <Button Content="Abonnements" Style="{StaticResource MenuButtonStyle}" Click="Abonnements_Click"/>
+                <Button Content="Historique Transactions" Style="{StaticResource MenuButtonStyle}" Click="Historique_Click"/>
+                <Button Content="Solde et Paiement" Style="{StaticResource MenuButtonStyle}" Click="SoldePaiement_Click"/>
+            </StackPanel>
+
+            <!-- Contenu par Défaut (Aperçu du Profil) -->
+            <StackPanel Grid.Column="1" Margin="30">
+                <TextBlock Text="Aperçu du Profil" Foreground="White" FontSize="32" FontWeight="Bold" Margin="0,0,0,20"/>
+
+                <Grid Margin="0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="Nom Complet :" Foreground="#AAAAAA"/>
+                    <TextBlock x:Name="TxtNomComplet" Grid.Column="1" Text="Jean Dupont" Foreground="White"/>
+                </Grid>
+                <Grid Margin="0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="Courriel :" Foreground="#AAAAAA"/>
+                    <TextBlock x:Name="TxtCourriel" Grid.Column="1" Text="jean.dupont@email.com" Foreground="White"/>
+                </Grid>
+                <Grid Margin="0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="Statut Abonnement :" Foreground="#AAAAAA"/>
+                    <TextBlock x:Name="TxtStatutAbonnement" Grid.Column="1" Text="Premium Actif" Foreground="#00FF00"/>
+                </Grid>
+                <Grid Margin="0,10">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" Text="Solde Compte :" Foreground="#AAAAAA"/>
+                    <TextBlock x:Name="TxtSolde" Grid.Column="1" Text="15.50 $" Foreground="White"/>
+                </Grid>
+
+                <Button Content="Modifier mon Profil" Background="#E50914" Foreground="White" Padding="10" Width="250" HorizontalAlignment="Left" Margin="0,30,0,0" Click="ModifierProfil_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
+

@@ -1,0 +1,66 @@
+<Page x:Class="KasomaFlix.Presentation.Views.ModificationProfil"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="700" d:DesignWidth="1000"
+      Title="ModificationProfil">
+
+    <Grid Background="#141414">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- HEADER -->
+        <Border Grid.Row="0" Background="#000000" Padding="15">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="KASOMAFLIX" Foreground="#E50914" FontSize="24" FontWeight="Bold" VerticalAlignment="Center"/>
+                <StackPanel Grid.Column="2" Orientation="Horizontal">
+                    <Button Content="Accueil" Background="#444444" Foreground="White" Padding="8,5" Margin="5,0" BorderThickness="0" Click="Accueil_Click"/>
+                    <Button Content="Mon Compte" Background="#E50914" Foreground="White" Padding="8,5" Margin="5,0" BorderThickness="0" Click="MonCompte_Click"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- FORMULAIRE DE MODIFICATION -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <Border Background="#222222" Width="550" Height="Auto" VerticalAlignment="Center" CornerRadius="10" Padding="30" Margin="0,50">
+                <StackPanel>
+                    <TextBlock Text="Modifier Mon Profil" Foreground="White" FontSize="28" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+                    <!-- Champs basés sur la classe Membre -->
+                    <TextBlock Text="Prénom" Foreground="White" Margin="0,10,0,5"/>
+                    <TextBox x:Name="TxtPrenom" Padding="8" Background="#333333" Foreground="White" BorderBrush="#444444" BorderThickness="1" Text="Jean"/>
+
+                    <TextBlock Text="Nom" Foreground="White" Margin="0,10,0,5"/>
+                    <TextBox x:Name="TxtNom" Padding="8" Background="#333333" Foreground="White" BorderBrush="#444444" BorderThickness="1" Text="Dupont"/>
+
+                    <TextBlock Text="Courriel" Foreground="White" Margin="0,10,0,5"/>
+                    <TextBox x:Name="TxtCourriel" Padding="8" Background="#333333" Foreground="White" BorderBrush="#444444" BorderThickness="1" Text="jean.dupont@email.com"/>
+
+                    <TextBlock Text="Adresse" Foreground="White" Margin="0,10,0,5"/>
+                    <TextBox x:Name="TxtAdresse" Padding="8" Background="#333333" Foreground="White" BorderBrush="#444444" BorderThickness="1" Text="123 Rue de l'Exemple"/>
+
+                    <TextBlock Text="Téléphone" Foreground="White" Margin="0,10,0,5"/>
+                    <TextBox x:Name="TxtTelephone" Padding="8" Background="#333333" Foreground="White" BorderBrush="#444444" BorderThickness="1" Text="555-123-4567"/>
+
+                    <TextBlock Text="Nouveau Mot de passe" Foreground="White" Margin="0,20,0,5"/>
+                    <PasswordBox x:Name="PwdNouveauMotDePasse" Padding="8" Background="#333333" Foreground="White" BorderBrush="#444444" BorderThickness="1"/>
+
+                    <TextBlock Text="Confirmer Mot de passe" Foreground="White" Margin="0,10,0,5"/>
+                    <PasswordBox x:Name="PwdConfirmerMotDePasse" Padding="8" Background="#333333" Foreground="White" BorderBrush="#444444" BorderThickness="1"/>
+
+                    <Button Content="Sauvegarder les Modifications" Background="#E50914" Foreground="White" Padding="12" Margin="0,30,0,10" FontSize="16" Click="Sauvegarder_Click"/>
+                </StackPanel>
+            </Border>
+        </ScrollViewer>
+    </Grid>
+</Page>
+

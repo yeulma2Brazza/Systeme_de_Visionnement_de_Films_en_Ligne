@@ -1,0 +1,17 @@
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\bin\Debug\net8.0\KasomaFlix.Infrastructure.deps.json
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\bin\Debug\net8.0\KasomaFlix.Infrastructure.runtimeconfig.json
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\bin\Debug\net8.0\KasomaFlix.Infrastructure.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\bin\Debug\net8.0\KasomaFlix.Infrastructure.pdb
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\bin\Debug\net8.0\KasomaFlix.Domain.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\bin\Debug\net8.0\KasomaFlix.Domain.pdb
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\KasomaFlix.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\KasomaFlix.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\KasomaFlix.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\KasomaFlix.Infrastructure.AssemblyInfo.cs
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\KasomaFlix.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\KasomaFl.C3BFA709.Up2Date
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\KasomaFlix.Infrastructure.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\refint\KasomaFlix.Infrastructure.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\KasomaFlix.Infrastructure.pdb
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\KasomaFlix.Infrastructure.genruntimeconfig.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Infrastructure\obj\Debug\net8.0\ref\KasomaFlix.Infrastructure.dll

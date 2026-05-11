@@ -1,0 +1,6 @@
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\bin\Debug\KasomaFlix.Domain.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\bin\Debug\KasomaFlix.Domain.pdb
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\KasomaFlix.Domain.csproj.AssemblyReference.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\KasomaFlix.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\KasomaFlix.Domain.dll
+C:\Users\Afro Tech\Downloads\VisionnementFilms\KasomaFlix.Domain\obj\Debug\KasomaFlix.Domain.pdb

@@ -1,0 +1,20 @@
+﻿KasomaFlix.Presentation
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\simon\OneDrive\Cours UQAR\Automne 2025\Génie logiciel II (INF23207-MS)\Travail Pratique 3\TP3_23207_A2025\VisionnementFilms\KasomaFlix.Presentation\obj\Debug\net8.0-windows\
+KasomaFlix.Presentation
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+C:\Users\simon\OneDrive\Cours UQAR\Automne 2025\Génie logiciel II (INF23207-MS)\Travail Pratique 3\TP3_23207_A2025\VisionnementFilms\KasomaFlix.Presentation\App.xaml
+191022059076
+
+251719718276
+236902416820
+MainWindow.xaml;Views\AccueilCatalogue.xaml;Views\CatalogueMembre.xaml;Views\DetailsFilm.xaml;Views\DetailsFilmAlt.xaml;Views\DialogAcheterLouer.xaml;Views\DialogAjouterCarteCredit.xaml;Views\FormulaireConnexion.xaml;Views\FormulaireInscription.xaml;Views\GestionFilm.xaml;Views\GestionMembres.xaml;Views\GestionTransactions.xaml;Views\HistoriqueTransactions.xaml;Views\LecteurVideo.xaml;Views\ModificationProfil.xaml;Views\MonCompte.xaml;Views\PageAbonnement.xaml;Views\SoldePaiement.xaml;Views\TableauBordAdmin.xaml;
+
+False
+

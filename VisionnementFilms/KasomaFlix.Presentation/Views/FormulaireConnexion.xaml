@@ -1,0 +1,42 @@
+<Page x:Class="KasomaFlix.Presentation.Views.FormulaireConnexion"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      
+    Title="FormulaireConnexion">
+
+    <Grid Background="#141414">
+        <!-- HEADER -->
+        <Border Grid.Row="0" Background="#000000" Padding="15">
+            <!-- ... Navigation vers E01 et E02 ... -->
+        </Border>
+
+        <!-- FORMULAIRE DE CONNEXION -->
+        <Border Grid.Row="1" Background="#222222" Width="400" Height="Auto" VerticalAlignment="Center" CornerRadius="10" Padding="30">
+            <StackPanel>
+                <TextBlock Text="Ouvrir Session" Foreground="White" FontSize="28" FontWeight="SemiBold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+                <!-- Champ Courriel ou Nom d'utilisateur -->
+                <TextBlock Text="Courriel ou Nom d'utilisateur" Foreground="White" Margin="0,10,0,5"/>
+                <TextBox x:Name="TxtIdentifiant" Padding="8" Background="#333333" Foreground="White" BorderBrush="#444444" BorderThickness="1"/>
+
+                <!-- Champ Mot de passe -->
+                <TextBlock Text="Mot de passe" Foreground="White" Margin="0,10,0,5"/>
+                <PasswordBox x:Name="PwdMotDePasse" Padding="8" Background="#333333" Foreground="White" BorderBrush="#444444" BorderThickness="1"/>
+
+                <!-- Bouton de Connexion -->
+                <Button Content="Se connecter" Background="#E50914" Foreground="White" Padding="12" Margin="0,30,0,10" FontSize="16" Click="SeConnecter_Click"/>
+
+                <!-- Liens supplémentaires -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                    <TextBlock Foreground="#AAAAAA">
+                        <Hyperlink Click="MotDePasseOublie_Click" Foreground="#AAAAAA">Mot de passe oublié ?</Hyperlink>
+                    </TextBlock>
+                    <TextBlock Text=" | " Foreground="#AAAAAA"/>
+                    <TextBlock Foreground="#AAAAAA">
+                        Nouveau ? <Hyperlink Click="Inscription_Click" Foreground="#E50914">S'inscrire</Hyperlink>
+                    </TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>
